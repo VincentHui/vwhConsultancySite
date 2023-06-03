@@ -56,6 +56,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
   .box:nth-child(1) {
   display: flex;
@@ -245,6 +246,7 @@
   text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  font-family: 'Roboto Mono', monospace;
 }
 #header p {
   font-size: 2rem;
@@ -264,3 +266,28 @@
 #header .core-disciplines-big {
   font-size: 2.5rem;
 }
+
+body {
+  background-color: #f1ffb5;
+}
+
+#header {
+  background-color: paleyellow;
+  text-align: center;
+  position: relative;
+}
+
+#header h1 {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#header p {
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
