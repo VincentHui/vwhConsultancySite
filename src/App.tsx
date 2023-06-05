@@ -1,3 +1,5 @@
+// THIS IS THE TSX USED!!!!!!
+
 import React from 'react';
 import './App.css';
 
@@ -7,7 +9,7 @@ import './App.css';
 const Header = () => {
   return (
     <header id="header">
-      <h1>What We Do.</h1>
+      <h1>What We Do</h1>
       <p>
         <span className="core-partnership">We partner with our customers across three</span>
         <span className="core-discipline">core disciplines</span>
