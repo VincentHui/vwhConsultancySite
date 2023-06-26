@@ -1,5 +1,29 @@
 import "./App.css";
 
+function Footer() {
+  return (
+    <div className="fs-cc-components">
+      <div fs-cc="banner" className="fs-cc-banner_component">
+        <div className="fs-cc-banner_container">
+          <div className="fs-cc-banner_text">
+            By using this website, you agree to the storing of cookies on your
+            device to enhance site navigation, analyse site usage, and assist in
+            our marketing efforts. View our{" "}
+            <a href="/privacy-policy">Privacy Policy</a>
+            for more information.
+          </div>
+          <div className="fs-cc-banner_buttons-wrapper">
+            <a fs-cc="allow" href="#" className="fs-cc-banner_button w-button">
+              Got it!
+            </a>
+          </div>
+        </div>
+        <div fs-cc="interaction" className="fs-cc-banner_trigger"></div>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="body">
@@ -879,29 +903,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="fs-cc-components">
-        <div fs-cc="banner" className="fs-cc-banner_component">
-          <div className="fs-cc-banner_container">
-            <div className="fs-cc-banner_text">
-              By using this website, you agree to the storing of cookies on your
-              device to enhance site navigation, analyse site usage, and assist
-              in our marketing efforts. View our{" "}
-              <a href="/privacy-policy">Privacy Policy</a>
-              for more information.
-            </div>
-            <div className="fs-cc-banner_buttons-wrapper">
-              <a
-                fs-cc="allow"
-                href="#"
-                className="fs-cc-banner_button w-button"
-              >
-                Got it!
-              </a>
-            </div>
-          </div>
-          <div fs-cc="interaction" className="fs-cc-banner_trigger"></div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }
