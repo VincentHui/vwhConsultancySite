@@ -4,7 +4,7 @@ import "../App.css";
 const Header = () => {
   return (
     <header id="header">
-      <h1>What We Do</h1>
+      <h1 style={{ marginTop: 0 }}>What We Do</h1>
       <p>
         <span className="core-partnership">
           We partner with our customers across three
@@ -27,7 +27,7 @@ const Box: React.FC<BoxProps> = ({ jpgFile, title, description }) => {
     <div className="box">
       <img src={jpgFile} alt={title} />
       <p>{title}</p>
-      {"\u0020".repeat(14)}
+      {/* {"\u0020".repeat(14)} */}
       <span>{description}</span>
     </div>
   );
@@ -35,7 +35,13 @@ const Box: React.FC<BoxProps> = ({ jpgFile, title, description }) => {
 
 export function WhatWeDoSection() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "#f1ffb5",
+        paddingTop: 100,
+        paddingBottom: 100,
+      }}
+    >
       <Header />
       <div className="box-container">
         <Box

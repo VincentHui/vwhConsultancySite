@@ -1,58 +1,17 @@
-.App {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .hero-home {
   width: 100%;
-    height: 105vh;
-    background-color: #272727;
-    background-image: url"https://uploads-ssl.webflow.com/5f679f6…/61a7524…_Modu%20Hero.jpg";
-    background-position: 0 0;
-    background-repeat: repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-    display: flex;
+  height: 105vh;
+  background-color: #272727;
+  background-image: url
+    "https://uploads-ssl.webflow.com/5f679f6…/61a7524…_Modu%20Hero.jpg";
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  display: flex;
 }
 
 .navigation-transparent {
@@ -65,12 +24,12 @@
   padding-left: 20px;
   padding-right: 10px;
   display: flex;
-    position: relative;
+  position: relative;
 }
-.w-nav:before{
+.w-nav:before {
   content: " ";
-    grid-area: 1 / 1 / 2 / 2;
-    display: table;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
 }
 .w-nav:after {
   content: " ";
@@ -87,7 +46,6 @@
   display: flex;
 }
 .w-container {
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -103,9 +61,9 @@
   text-align: right;
   flex: 1;
   font-family: Source Sans Pro, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .w-nav-menu {
@@ -116,31 +74,30 @@
 .nav-link-transparent {
   max-width: 1170px;
   color: #fff;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-    margin-right: 30px;
-    padding: 16px 0;
-    font-family: Roboto Mono, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 0;
-    transition: all .3s;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  margin-right: 30px;
+  padding: 16px 0;
+  font-family: Roboto Mono, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  transition: all 0.3s;
 }
 
 .centered-container {
-  width: 1200px;
-  max-width: 90%;
   box-sizing: border-box;
   display: block;
-  height: 500px;
   color: #fff;
   position: relative;
   overflow: hidden;
   color: #212127;
   padding-top: 100px;
-  padding-bottom: 600px;
+  padding-bottom: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -165,17 +122,17 @@
 .hero-text {
   font-size: 18px;
   max-width: 70%;
-    opacity: .8;
-    color: #c4e2fa;
-    text-align: center;
-    margin-bottom: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Source Sans Pro, sans-serif;
-    font-size: 28px;
-    line-height: 140%;
-    box-sizing: border-box;
-    display: block;
+  opacity: 0.8;
+  color: #c4e2fa;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 28px;
+  line-height: 140%;
+  box-sizing: border-box;
+  display: block;
 }
 .button-2.yellow {
   width: 200px;
@@ -192,7 +149,7 @@
   margin-right: auto;
   padding: 15px 20px;
   font-family: Roboto Mono, sans-serif;
-  transition: all .3s;
+  transition: all 0.3s;
   display: block;
   box-sizing: border-box;
 }
