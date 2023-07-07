@@ -2,7 +2,7 @@
 import React from "react";
 import "./whoAreWe.css";
 
-function WhoAreWeSection() {
+export function WhoAreWeSection() {
   return (
     <div style={{ backgroundColor: "#282c34" }}>
       {/* <header className="App-header"> */}
@@ -95,5 +95,3 @@ function WhoAreWeSection() {
     </div>
   );
 }
-
-export default WhoAreWeSection;
