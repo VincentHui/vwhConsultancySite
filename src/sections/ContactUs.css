@@ -1,0 +1,21 @@
+.section {
+  background-color: #272727;
+  color: white;
+  padding: 2rem;
+}
+
+.header,
+.footer {
+  background-color: white;
+  padding: 1rem;
+}
+
+.content {
+  padding: 1rem 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.button {
+  font-family: "Roboto Mono";
+}
