@@ -1,11 +1,7 @@
 import React from "react";
 import "./ContactUs.css";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const Section = ({ children }: Props) => (
+export const ContactUsSection = () => (
   <section
     style={{
       backgroundColor: "#272727",
@@ -26,7 +22,6 @@ const Section = ({ children }: Props) => (
         padding: "1rem 0",
       }}
     >
-      {children}
       <button
         style={{
           backgroundColor: "transparent",
@@ -125,5 +120,3 @@ const Section = ({ children }: Props) => (
     </div>
   </section>
 );
-
-export default Section;
