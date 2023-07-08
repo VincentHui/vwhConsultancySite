@@ -1,11 +1,15 @@
 // import logo from "./logo.svg";
 import React from "react";
 import "./whoAreWe.css";
+import { styled } from "styled-components";
+
+const SectionBackground = styled.div`
+  background-color: rgb(40, 44, 52);
+`;
 
 export function WhoAreWeSection() {
   return (
-    <div style={{ backgroundColor: "#282c34" }}>
-      {/* <header className="App-header"> */}
+    <SectionBackground>
       <div
         data-collapse="medium"
         data-animation="default"
@@ -92,6 +96,6 @@ export function WhoAreWeSection() {
         </a>
       </div>
       {/* </header> */}
-    </div>
+    </SectionBackground>
   );
 }
