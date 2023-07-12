@@ -1,1 +1,102 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+
+
+.work-with-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #0061fe;
+    background-image: url(https://uploads-ssl.webflow.com/5f679f64b6be43a8f3af1324/61a7a363f13f29e9973860f5_Blue%20Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.centered-container-small {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #d4ff1c;
+    font-family: Roboto Mono, sans-serif;
+    
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+
+ .center-text {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-family: Roboto Mono, sans-serif;
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 52px;
+    }
+
+ }
+
+ .section-text {
+    font-family: source Sans pro, sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    position: static;
+    text-align: center;
+    color: #fff;
+ }
+
+ .roles-grid {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+ }
+
+ .w-layout-grid roles-grid{
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+ }
+
+.roles-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f1ffb5;
+    border: 1px solid #c4e2fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -2px #fff;
+    
+}
+
+
+.roles-text {
+    color: #272727;
+    text-align: center;
+    font-family: Roboto Mono, sans-serif;
+}
+
+.button-2 yellow blue w-button {
+    width: 200px;
+    border-color: #d4ff1c;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
